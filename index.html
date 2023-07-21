@@ -2,20 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sara's Portfolio</title>
+    <title>My Resume</title>
 </head>
 
 <body>
-    <h1>Sara's Portfolio</h1>
-    <h2>I'm a web developer in progress</h2>
+
+    <img src="./assets/user.png" height = 80 alt="profile picture"/>
+    <h1>Sara Khaled</h1>
+    <!-- how to reduce space? -->
+    <h2>undergrad</h2>
     <hr>
-    <h3><a href="./public/movie-ranking.html"> <strong>My Movie-Ranking Project</strong> </a></h3>
-    <img src="./assets/images/movie-ranking.png" alt="movie-ranking screenshot" height=200/>
-    <h3><a href="./public/birthday-invite.html"> <strong>My Birthday-Invite Project</strong></a></h3>
-    <img src="./assets/images/birthday-invite.png" alt="birthday invite screenshot" height="200"/>
+    <h3><strong>Summary:</strong></h3>
+    <p>paragraph summaryparagraph summaryparagraph summaryparagraph summaryparagraph summary
+    paragraph summaryparagraph summaryparagraph summary
+    paragraph summary</p>
+
+    <h3><strong>Education:</strong></h3>
+    <table border="1">
+        <!-- <thead> not necessary but i wrote it anyway -->
+        <thead> 
+            <tr>
+                <th>School</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td>MFIS IGCSE <br>
+                    score: 98%
+                </td>
+                <td>2018-2020</td>
+            </tr>
+            <tr>
+                <td>German University in Cairo - GUC <br>
+                    Computer Engineering BSc. <br>
+                    GPA: 2.0
+                </td>
+                <td>2020-2025</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <h3><strong>Work Experience:</strong></h3>
+    <table border="1">
+        <thead>
+            <th>Title</th>
+            <th>Employer</th>
+            <th>Date</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Computer Science Teacher Assistant</td>
+                <td align="center">MFIS</td>
+                <td>2019-2020</td>
+                <td>Part-time</td>
+            </tr>
+            <tr>
+                <td>Social Media Manager</td>
+                <td align="center">MSD</td>
+                <td>2021-present</td>
+                <td>Freelance/Part-time</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3><Strong>Skills:</Strong></h3>
+    <ol>
+        <li>Languages:
+            <ul>
+                <li>Arabic (native)</li>
+                <li>English (Fluent)</li>
+                <li>French (B1)</li>
+                <li>German (A2)</li>
+            </ul>
+        </li>
+        <li>Coding:
+            <ul>
+                <li>Expert level: JAVA - SQL</li>
+                <li>Intermediate level: HTML</li>
+                <li>Background in: PYTHON - C</li>
+            </ul>
+        </li>
+        <li>Personal skills:</li>
+            <ul>
+                <li>Organizational skills</li>
+                <li>Leadership skills</li>
+            </ul>
+    </ol>
+
     <hr>
-    <a href="./public/about.html"> About me</a>
-    <a href="./public/contact.html"> Contact me</a>
+    <a href="./public/hobbies.html">My Hobbies</a>
+    <a href="./public/contacts.html">My Contact Details</a>
+
 </body>
+<hr>
+<footer>
+    <address><small>Copywrite © 2023 Sara Khaled. All Writes Reserved.</small></address>
+    
+</footer>
 
 </html>
